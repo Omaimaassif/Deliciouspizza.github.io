@@ -1,0 +1,261 @@
+@font-face{
+    font-family: myFont;
+    src:url(Birdgo.ttf);
+}
+@font-face{
+    font-family: modesta;
+    src: url(Modesta.ttf);
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+header{
+    width: 100%;
+    position: fixed;
+	z-index: 999;
+	display: flex;
+	justify-content: space-between;
+}
+table{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(0,0,0,0.7);
+
+}
+td{
+    float: right;
+    border-radius: 15px;
+    /*background-color: #ffe6b3;*/
+    padding: 0.75%;
+    margin-right: 2%;
+}
+a:hover{
+  color: #ffd633;  
+}
+a{
+    text-decoration: none;
+    color:#ff6600;
+    font-family: myFont;
+    font-weight: bold;
+}
+span{
+    color: #ffd633;
+    font-weight: bold;
+    font-size: 50px;
+    margin: auto;
+    text-shadow:1px 2px black;
+}
+.main{
+    width:100%;
+	display: flex;
+    min-height: 100vh;
+	align-items: center;
+	background: url(pizza1.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;  
+	background-attachment: fixed;
+}
+h1{
+    font-size: 3000;
+    font-weight: bold;
+    font-family:myFont;
+}
+#sen{
+    position: absolute;
+    top: 111%;
+    left: 25%;
+    color:  #ff6600;
+    width: 50%;
+    text-align: center;
+    text-shadow:1px 1px black;
+}
+.pic{
+    width:100%;
+	display: flex;
+    min-height: 100vh;
+	background-size: cover;
+	background-color:#ffd633;
+}
+.piz{
+    height: 30%;
+    width: 20%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.75);
+}
+.piz:hover{
+    display: none;
+}
+#mar{
+    position: absolute;
+    top:132% ;
+    left: 4% ;
+    display: index;
+    z-index: 2;
+}
+#one{
+    position: absolute;
+    top: 139%;
+    left: 9%;
+    z-index: 1;
+}
+#tun{
+    position: absolute;
+    top: 132%;
+    left: 28%;
+    display: index;
+    z-index: 2;
+}
+#two{
+    position: absolute;
+    top: 139%;
+    left:34% ;
+    z-index: 1;
+}
+#tor{
+    position: absolute;
+    top: 132% ;
+    left: 52% ;
+    display: index;
+    z-index: 2;
+}
+#three{
+    position: absolute;
+    top: 139%;
+    left: 57%;
+    z-index:1;
+}
+#fruit{
+    position: absolute;
+    top: 132%;
+    right: 4%;
+    display: index;
+    z-index: 2;
+}
+#four{
+    position: absolute;
+    top: 139%;
+    right:10%;
+    z-index: 1;
+}
+#alf{
+    position: absolute;
+    top: 168%;
+    left: 18%;
+    display: index;
+    z-index: 2;
+}
+#five{
+    position: absolute;
+    top: 175%;
+    left:23% ;
+    z-index: 1;
+}
+#cham{
+    position: absolute;
+    top: 168%;
+    right: 18%;
+    display: index;
+    z-index: 2;
+}
+#six{
+    position: absolute;
+    top: 175%;
+    right:23% ;
+    z-index: 1;
+}
+#veg{
+    position: absolute;
+    top: 168%;
+    left: 40%;
+    display: index;
+    z-index: 2;
+}
+#seven{
+    position: absolute;
+    top: 175%;
+    left: 47%;
+    z-index: 1;
+}
+.marpic{
+    width:100%;
+	display: flex;
+    min-height: 60vh;
+	background-size: cover;
+	background-color:antiquewhite;
+}
+.main-btn{
+	color:#ffd633;
+	background-color:#ff6600;
+	text-decoration: none;
+	font-size: 1.1em;
+	font-weight: 600;
+    display: inline-block;
+	padding: 0.9375em 2.1875em;
+	letter-spacing: 1px;
+	border-radius: 15px;
+	margin-bottom:40px;
+	transition: 0.7s ease;
+    position: absolute;
+    top: 56%;
+    left: 7%;  
+}
+.main-btn:hover{
+	background-color:#ffd633;
+    color: #ff6600;
+	transform: scale(1.1);
+}
+/*.menu{
+    background-color: #ff6600;
+    color: #ffd633;
+    font-family: myFont;
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+    height: 20%;
+    display: block;
+}*/
+#one,#two,#three,#four,#five,#six,#seven {
+    font-size: larger;
+    color:#ff6600;
+    font-family:myFont;
+    text-shadow:1px 1px black ;
+}
+.story{
+    color:#ff6600;
+    padding-top: 3%;
+    font-family: myFont;
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+
+}
+
+.st{
+    width: 60%;
+    position: absolute;
+    top: 202%;
+    left: 22%;
+    padding-top: 15%;
+    text-align: center;
+    font-family: myFont;
+    color: #ff6600;
+    font-size: x-large;
+    text-shadow: 1px 1px black;
+}
+.last{
+    width:100%;
+	display: flex;
+    min-height: 6vh;
+	background-size: cover;
+	background-color:rgba(0,0,0,0.9);   
+}
+.me{
+    color: #ffd633;
+    text-align: center;
+    font-weight:bold ;
+    width: 100%;
+}
